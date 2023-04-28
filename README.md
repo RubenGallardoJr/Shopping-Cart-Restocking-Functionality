@@ -1,1 +1,4 @@
 # Shopping-Cart-Restocking-Functionality
+The code is a simple e-commerce web application that allows users to view a list of products, add them to a shopping cart, and check out. The app simulates getting products from a database and displays them on the page using React components. It also uses the ReactBootstrap library for styling and layout.
+
+The Cart component renders a list of items that have been added to the shopping cart, and the Products component contains the logic for fetching and displaying the products. The useDataApi hook is used to fetch data from the Strapi CMS backend using the Axios library. The addToCart function adds a selected item to the cart, and the checkOut function calculates the total cost of all items in the cart. The deleteCartItem function removes an item from the cart. Finally, the finalList function returns a list of items in the cart and the total cost.
